@@ -201,7 +201,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #777777;
-  font-family: FontAwesome;;
+  font-family: 'robotoregular';
   overflow-x: hidden;
 }
 
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5 {
 
 h4.widget-title {
   font-size: 20px;
-  font-family: FontAwesome;
+  font-family:'robotoregular';
   text-transform: none;
   margin-bottom: 40px;
 }
@@ -320,7 +320,7 @@ hr {
   -webkit-border-radius: 75px;
   border-radius: 75px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .profile-image img {
   width: 100%;
@@ -330,11 +330,11 @@ h3.profile-title {
   margin-bottom: 5px;
   color: white;
   font-size: 18px;
-  font-family: FontAwesome;
+  font-family: 'robotoregular';
 }
 
 .main-navigation {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 .main-navigation li {
   display: block;
@@ -361,20 +361,34 @@ h3.profile-title {
 
 .social-icons {
   display: block;
-  padding: 30px 40px;
+  padding: 20px 30px;
 }
 .social-icons li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right:40px;
 }
 .social-icons a {
-  font-size: 22px;
+  font-size: 21px;
   color: white;
+  position: absolute;
+  border-radius: 100%;
+  height: 2.7rem;
+  line-height: 2.7rem;
+  text-align: center;
+  width: 2.7rem;
 }
+
 .social-icons a:hover {
-  /*color: #282e35;*/
-  font-size: 35px;
-  color: #49bf9d;
+  color: #dddddd;
+  font-size: 26px;
+  /*color: #49bf9d;*/
+  /*height: 3rem;*/
+  /*line-height: 3rem;*/
+  text-align: center;
+  /*width: 3rem;*/
+  position: absolute;
+  /*box-shadow: inset 0 0 0 1px #E9724C;*/
+  background-color: #495461;
   -webkit-transition: all 400ms ease-in-out;
   -moz-transition: all 400ms ease-in-out;
   -ms-transition: all 400ms ease-in-out;
@@ -452,7 +466,7 @@ h3.profile-title {
 .banner-bg {
   padding: 260px 80px;
   position: relative;
-  background: url("../img/7.jpg");
+  background: url("../img/7.jpg") fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -464,7 +478,9 @@ h3.profile-title {
   width: 100%;
   height: 100%;
   background: rgba(95, 109, 126, 0.4);
-  top: 0;
+ /* background: #121212;
+  opacity: 0.4;
+*/  top: 0;
   left: 0;
   z-index: 3;
 }
@@ -475,7 +491,7 @@ h3.profile-title {
 }
 .welcome-text h2 {
   font-size: 42px;
-  font-family: FontAwesome;
+  font-family: 'robotoregular';
   color: white;
   margin-bottom: 30px;
 }
@@ -588,11 +604,11 @@ h3.profile-title {
   margin: 40px 0;
   font-size: 13px;
   color: #999999;
-  font-family: FontAwesome;
+  font-family: 'robotoregular';
 }
 #footer p.copyright-text a {
   color: #999999;
 }
 #footer p.copyright-text a:hover {
-  color: #49bf9d;
+  color: #495461;
 }

@@ -466,7 +466,7 @@ h3.profile-title {
  4. Main Content
 -------------------------------------------------------- */
 /*------ banner ------ */
-.banner-bg {
+.banner-bg2 {
   padding: 280px 80px;
   position: relative;
   background: url("../img/7-20.jpg") fixed;
@@ -475,7 +475,7 @@ h3.profile-title {
   background-size: cover;
   z-index: 2;
 }
-.banner-bg2{
+.banner-bg{
   padding: 280px 80px;
   position: relative;
   background: url("../img/7-19.jpg") fixed;

@@ -241,21 +241,21 @@ h1, h2, h3, h4, h5 {
 }
 
 .main-content,
-.banner-bg 
+.banner-bg,
 .banner-bg2{
   float: right;
   width: 77%;
 }
 @media screen and (max-width: 1290px) {
   .main-content,
-  .banner-bg
+  .banner-bg,
   .banner-bg2 {
     width: 70%;
   }
 }
 @media screen and (max-width: 992px) {
   .main-content,
-  .banner-bg
+  .banner-bg,
   .banner-bg2 {
     width: 100%;
   }
@@ -469,7 +469,7 @@ h3.profile-title {
 .banner-bg {
   padding: 280px 80px;
   position: relative;
-  background: url("../img/7-19.jpg") fixed;
+  background: url("../img/7-20.jpg") fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
